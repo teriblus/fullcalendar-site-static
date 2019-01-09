@@ -57,7 +57,7 @@ The current [View Object](view-object).
 
 </table>
 
-The `eventRender` callback function can modify `element`. For example, it can change its appearance via Element's [style object](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style).
+The `eventRender` callback function can modify `el`. For example, it can change its appearance via Element's [style object](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style).
 
 The function can also return a brand new element that will be used for rendering instead. For all-day [background events](background-events), you must be sure to return a `<td>`.
 
